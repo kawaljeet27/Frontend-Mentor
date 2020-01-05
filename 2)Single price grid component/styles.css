@@ -1,0 +1,119 @@
+body{
+  background-color: hsl(204, 43%, 93%);
+  font-family: 'karla', sans-serif;
+  margin: 0;
+}
+
+.main-container {
+margin-top: 150px;
+}
+
+.top-container {
+  width: 45%;
+  margin: 0 auto;
+}
+
+.first-top-container {
+  background-color: white;
+  padding: 30px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.bottom-main-container {
+  width: 45%;
+  margin: 0 auto;
+}
+
+.container-bottom-left {
+  background-color: hsl(179, 62%, 43%);
+  padding: 30px 31px 43px 30px;
+  width: 40%;
+  float: left;
+  clear: left;
+  border-bottom-left-radius: 8px;
+}
+
+.container-bottom-right {
+  background-color: hsl(179, 42%, 56%);
+  padding: 30px;
+  width: 41%;
+  float: right;
+  clear: right;
+  border-bottom-right-radius: 8px;
+}
+
+.per-day-plan {
+  color: whitesmoke;
+  padding-bottom: 30px;
+  clear: left;
+}
+
+.price {
+  color: white;
+  float: left;
+  margin-bottom: 10px;
+}
+
+.price-para {
+  color: hsl(179, 52%, 79%);
+  padding-top: 30px;
+  padding-left: 70px;
+  margin: 0;
+}
+
+h3 {
+  color: white;
+  margin-bottom: 0;
+}
+
+.guarantee {
+  color: hsl(71, 73%, 54%);
+}
+
+.title {
+  color: hsl(179, 62%, 43%);
+}
+.main-para {
+  color: hsl(218, 22%, 67%);
+  width: 560px;
+}
+
+.last-para {
+  width: 240px;
+  color: hsl(204, 43%, 93%);
+}
+
+
+.btn {
+    background: hsl(71, 73%, 54%);
+    background-image: -webkit-linear-gradient(top, hsl(71, 73%, 54%), hsl(71, 73%, 54%));
+    background-image: -moz-linear-gradient(top, hsl(71, 73%, 54%), hsl(71, 73%, 54%));
+    background-image: -ms-linear-gradient(top, hsl(71, 73%, 54%), hsl(71, 73%, 54%));
+    background-image: -o-linear-gradient(top, hsl(71, 73%, 54%), hsl(71, 73%, 54%));
+    background-image: linear-gradient(to bottom, hsl(71, 73%, 54%), hsl(71, 73%, 54%));
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 15px 87px 15px 87px;
+    text-decoration: none;
+  }
+  
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+ 
+footer {
+  margin: 340px auto 20px;
+}
+.attribution { font-size: 15px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
