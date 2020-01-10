@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Barlow', sans-serif;
+    font-weight: 400;
+    box-sizing: border-box;
+    color: hsl(230, 29%, 20%);
+}
+
+
+
+.navbar {
+    width: 80%;
+    margin: 45px auto 100px;
+}
+
+.navigation-links a {
+    font-family: 'Barlow Condensed', sans-serif;
+    margin: 15px;
+    text-decoration: none;
+    color: hsl(230, 29%, 20%);
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: 1px;
+}
+
+.navigation-links a:hover {
+    text-decoration: underline;
+}
+
+.login:hover {
+    color: hsl(231, 7%, 65%);
+}
+
+
+
+.hero {
+    margin: 20px 0 20px 140px;
+}
+
+.col-lg-5 {
+    padding-top: 55px;
+}
+.col-lg-5 p span {
+    background-color: hsl(230, 29%, 20%);
+    color: white;
+    font-weight: 700;
+    padding: 3px 6px 3px 8px;
+    border-radius: 15px;
+    font-size: .9rem;
+    margin-right: 10px;
+    letter-spacing: 2px;
+}
+.p1 {
+    color: hsl(231, 7%, 65%);
+    letter-spacing: 5px;
+    font-size: 1rem;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+h1 {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 4rem;
+}
+.description {
+    color: hsl(230, 11%, 40%);
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.btn-danger {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-right: 25px;
+    background-color: hsl(0, 100%, 68%);
+    border: none;
+    padding: .65rem 1.5rem;
+}
+.btn-danger:hover {
+    background-color: hsl(0, 100%, 76%);
+}
+
+.preview {
+    font-family: 'Barlow Condensed', sans-serif;
+    color: hsl(231, 7%, 65%);
+    letter-spacing: 5px;
+    font-size: 1rem;
+}
+
+.attribution {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 5px;
+}
+.attribution a {
+    color: hsl(228, 50%, 47%);
+}
