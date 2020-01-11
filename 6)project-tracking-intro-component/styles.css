@@ -5,6 +5,8 @@ body {
     font-weight: 400;
     box-sizing: border-box;
     color: hsl(230, 29%, 20%);
+    background: linear-gradient(hsl(207, 33%, 95%), hsl(207, 33%, 95%))
+     no-repeat 730px -345px;
 }
 
 
