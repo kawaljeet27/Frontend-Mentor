@@ -1,0 +1,121 @@
+body {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(254, 255, 255);
+    text-align: center;
+    color: hsl(229, 6%, 66%);
+    display: flex;
+    flex-direction: column;
+}
+
+h1,h3 {
+    color: hsl(234, 12%, 34%);
+}
+h1 {
+    font-size: 1.5rem;
+}
+
+header {
+    margin: 70px 7% 40px;
+    padding-bottom: 38px;
+}
+header p{
+    max-width: 500px;
+    margin: auto;
+}
+.header-title {
+    margin-bottom: 0px;
+    font-weight: 200;
+}
+.header-subtitle {
+    margin-top: 0;
+}
+
+.container {
+    margin: auto;
+    height: fit-content;
+    width: 304px;
+    margin-bottom: 20px;
+    text-align: start;
+    background-color: white;
+    border-radius: 7px; 
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+     0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+.container div{
+    padding: 0 20px;
+}
+.container p{
+    font-size: 13px;
+    width: 225px;
+}
+.container .img-container{
+    display: flex;
+    justify-content: flex-end !important;
+    padding: 15px 20px 20px;
+}
+
+#mid-top-container {
+    border-top: solid 4px hsl(0, 78%, 62%);
+}
+#mid-bottom-container {
+    border-top: solid 4px hsl(34, 97%, 64%);
+}
+#left-container {
+    border-top: solid 4px hsl(180, 62%, 55%);
+}
+#right-container {
+    border-top: solid 4px hsl(212, 86%, 64%);
+}
+
+footer {
+    margin: 50px 0 20px 0;
+}
+.attribution {
+    font-size: 15px; text-align: center;
+    color: hsl(234, 12%, 34%);
+}
+.attribution a{ 
+    color: hsl(228, 45%, 44%);
+}
+
+@media screen and (min-width: 1155px) and (max-width: 1920px) {
+    h1{
+        font-size: 2.5rem;
+    }
+    header p {
+        font-size: 16px;
+        letter-spacing: 1px;
+        min-width: 545px;
+    }
+
+    main {
+        display: flex;
+    }
+    #mid-top-container {
+        margin: 0 0 30px;
+    }
+    .container {    
+        height: 190px;
+        width: 304px;
+        padding: 25px 25px 30px;
+        margin: auto auto;
+    }
+    .container div{
+        padding: 0;
+    }
+    .title {
+        margin-top: 4px;
+        margin-bottom: 0;
+        width: 304px;
+    }
+    .container p {
+        margin-top: 10px;
+        margin-bottom: 40px;
+        width: 290px;
+        font-size: 15px;
+    }
+    .main-img {
+        margin-bottom: 10px;
+    }
+}
