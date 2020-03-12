@@ -2,43 +2,58 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Four card feature section</title>
     <link rel="icon" href="images/favicon-32x32.png">
-    <link rel="stylesheet" href="styles.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="styles.css"  -->
+    <link rel="stylesheet" href="responsive.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins:200,400,600&display=swap" rel="stylesheet">    
 </head>
 <body> 
-    <header class="header">
-        <h1 class="header_title">Reliable, efficient delivery</h1>
-        <h1 class="header_subt">Powered by Technology</h1>
-        <p class="paragraph">Our Artificial Intelligence powered tools use millions of project
-            data points to ensure that your project is successful</p>
+    <section>
+    <header>
+        <h1 class="header-title"> Reliable, efficient delivery </h1>
+        <h1 class="header-subtitle"> Powered by Technology </h1>
+        <p class="header-description"> Our Artificial Intelligence powered tools use millions of project
+            data points to ensure that your project is successful </p>
     </header>
 
     <main class="main">
-        <div class="container" id="top-container">
-            <h3 class="title">Team Builder</h3>
-            <p class="description">Scans our talent network to create the optimal team for your project</p>
-            <img class="main-img" src="images/icon-team-builder.svg" alt="Team builder.jpg">
-        </div>
-        <div class="container" id="bottom-container">
-            <h3 class="title">Karma</h3>
-            <p class="description">Regularly evaluates our talent to ensure quality</p>
-            <img class="main-img" src="images/icon-karma.svg" alt="Karma.jpg">
+        <div class="container" id="left-container">
+            <div>
+                <h3 class="title">Supervisor</h3>
+                <p class="description">Monitors activity to identify project roadblocks</p>
+                <div class="img-container"><img class="main-img" src="images/icon-supervisor.svg" alt=""></div>
+            </div>
         </div>
 
-        <div class="container" id="left-container">
-            <h3 class="title">Supervisor</h3>
-            <p class="description">Monitors activity to identify project roadblocks</p>
-            <img class="main-img" src="images/icon-supervisor.svg" alt="">
+        <div class="mid-container">
+        <div class="container" id="mid-top-container">
+            <div>
+                <h3 class="title">Team Builder</h3>
+                <p class="description">Scans our talent network to create the optimal team for your project</p>
+                <div class="img-container"><img class="main-img" src="images/icon-team-builder.svg" alt="Team builder.jpg"></div>
+            </div>
+        </div>
+
+        <div class="container" id="mid-bottom-container">
+            <div>
+                <h3 class="title">Karma</h3>
+                <p class="description">Regularly evaluates our talent to ensure quality</p>
+                <div class="img-container"><img class="main-img" src="images/icon-karma.svg" alt="Karma.jpg"></div>
+            </div>
+        </div>
         </div>
 
         <div class="container" id="right-container">
-            <h3 class="title">Calculator</h3>
-            <p class="description">Uses data from past projects to provide better delivery estimates</p>
-            <img class="main-img" src="images/icon-calculator.svg" alt="">
+            <div>
+                <h3 class="title">Calculator</h3>
+                <p class="description">Uses data from past projects to provide better delivery estimates</p>
+                <div class="img-container"><img class="main-img" src="images/icon-calculator.svg" alt=""></div>
+            </div>
         </div>
     </main>
 
@@ -48,6 +63,6 @@
           Coded by <a href="#">Kawaljeet Rathore</a>.
         </p>
       </footer>
-    
+    </section>
 </body>
 </html>
