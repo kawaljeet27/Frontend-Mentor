@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    box-sizing: border-box;
+    color: hsl(0, 36%, 70%);
+    background: linear-gradient(135deg, hsl(0, 100%, 98%) ,  hsl(0, 0%, 100%) );
+    
+}
+
+h1 {
+    font-size: 4rem;
+    letter-spacing: 20px;
+    font-weight: 600;
+    line-height: 1.1;
+    margin-bottom: 18px;
+    color: hsl(0, 6%, 24%);
+}
+
+span {
+    color: hsl(0, 36%, 70%);
+    font-weight: 200;
+    letter-spacing: 18px;
+}
+
+p {
+   line-height: 1.8; 
+   margin-bottom: 50px;
+}
+.content-section {
+    width: 435px;
+    margin: 75px 200px 0 152px;
+}
+
+.logo-img {
+    margin-bottom: 120px;
+}
+
+.call-to-action {
+    position: relative;
+}
+
+.input-box {
+    width: 380px;
+    height: 55px;
+    text-indent: 25px;
+    border-radius: 30px;hsl(0, 6%, 24%)hsl(0, 6%, 2hhsl(0, 6%, 24%)hsl(0, 6%, 24%)4%)
+    border-width: 1px;
+    border-style: solid;
+    border-color: hsl(0, 36%, 70%);
+    background : linear-gradient(135deg, hsl(0, 100%, 98%) ,  hsl(0, 0%, 100%) );
+    color: hsl(0, 36%, 70%);
+}
+
+
+.attribution {
+    font-size: 13px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+button {
+    width: 100px;
+    height: 55px;
+    position: absolute;
+    right: 10px;
+    background: linear-gradient(135deg,  hsl(0, 80%, 86%), hsl(0, 74%, 74%) );
+    border: none;
+    border-radius: 35px;
+}
+
+/* div {
+    background: linear-gradient(135deg, hsl(0, 74%, 74%), hsl(0, 0%, 100%),
+    hsl(0, 100%, 98%) , hsl(0, 80%, 86%) );
+} */
